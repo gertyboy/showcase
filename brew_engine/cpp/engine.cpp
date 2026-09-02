@@ -4,7 +4,7 @@
 // This function will turn the python inputs into readable C++ data structures
 
 
-// This function will take the grind size, water temperature, 
+// This function will take the grind size, water temperature, bean weight,
 // yield weight, whether a distribution tool was used, brew time, bean age, 
 
 // This function will take the grinder type and clicks from 0 to give a grind size

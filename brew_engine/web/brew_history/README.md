@@ -1,1 +1,0 @@
-This is where my README documentation for my brew_history files will go, I'll update it throughout the project
