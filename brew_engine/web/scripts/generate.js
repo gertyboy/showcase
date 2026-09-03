@@ -2,7 +2,8 @@
 
 function generateHeaderFooter() {
     console.log("Test - Header/Footer")
-    homePage = document.appendChild(document.createElement("a"));
+    homePage = document.body.appendChild(document.createElement("a"));
+    homePage.href = "../index.html";
     homePage.innerHTML = "<div id='home_page' class='header'><h4>Home</h4></div>";
     console.log("Test - Header/Footer - Home Page")
 }

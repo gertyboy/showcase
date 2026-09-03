@@ -7,6 +7,7 @@
 
 function generateHistory() {
     console.log("Test - History")
+// Next step will be to create an API and use it to generate coffee history
 // I will add history here, DO NOT ADD GENERATE HEADER IN THIS FUNCTION YOU DONUT, WE HAVE GENERATE.JS for that
 }
 
