@@ -7,5 +7,5 @@ function sendBrewData() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    generateHistory();
+    sendBrewData();
 });
