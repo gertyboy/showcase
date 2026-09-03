@@ -11,7 +11,22 @@
     <!-- I am going to be putting all brew information here -->
      <!-- I will need to add a form that brew.js will be able to package and send to the python files -->
       <main>
-        
+        <form>
+            <input type="datetime-local" id="brew_date" name="brew_date" placeholder="Brew Date and Time">
+            <input type="text" id="brew_method" name="brew_method" placeholder="Brew Method">
+            <input type="text" id="bean_type" name="bean_type" placeholder="Bean Type">
+            <input type="number" id="bean_weight" name="bean_weight" placeholder="Bean Weight (grams)">
+            <input type="date" id="bean_roast_date" name="bean_roast_date" placeholder="Bean Roast Date (YYYY-MM-DD)">
+            <input type="number" id="water_weight" name="water_weight" placeholder="Water Weight (grams)">
+            <input type="number" id="brew_time" name="brew_time" placeholder="Brew Time (seconds)">
+            <input type="number" id="brew_temperature" name="brew_temperature" placeholder="Brew Temperature (°C)">
+            <input type="number" id="grind_size" name="grind_size" placeholder="Grind Size (microns)">
+            <input type="number" id="extraction_yield" name="extraction_yield" placeholder="Extraction Yield (%)">
+            <input type="number" id="tasting_notes" name="tasting_notes" placeholder="Tasting Notes (1-10)">
+            <input type="number" id="overall_rating" name="overall_rating" placeholder="Overall Rating (1-10)">
+            <input type="text" id="modifiers" name="modifiers" placeholder="Modifiers (e.g., milk, sugar)">
+            <button type="button" onclick="sendBrewData()">Submit Brew Data</button>
+        </form>
       </main>
     <script src="../scripts/generate.js"></script>
     <script src="../scripts/brew.js"></script>

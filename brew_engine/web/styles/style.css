@@ -1,3 +1,13 @@
+:root {
+    --primary-color: #4B2E2E; /* Dark Brown - verify/change later */
+    --secondary-color: #F5F5DC; /* Off White/Cream - verify/change later */
+    --accent-color: #D2B48C; /* Tan - verify/change later */
+    --text-color: #333333; /* Dark Gray for text - verify/change later */
+    --background-color: #FAF0E6; /* Light Beige for background - verify/change later */
+    --header-font: sans-serif; /* Modern font for header - verify/change later */
+    --body-font: serif; /* Elegant font for body - verify/change later */
+}
+
 /* I will want to style the header in a dark brown color with an off white/cream background */
 
 /* I want the body to be modular to allow for iphone and desktop viewing,
@@ -7,5 +17,3 @@
 /* I want the the general theme to be soft and warm but modern to give 
     the user a sense of luxury and comfort. This is for the people
     who are crazy enough to build an entire brewing profile /*
-
-
