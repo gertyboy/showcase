@@ -6,7 +6,6 @@ function generateHeaderFooter() {
 
 document.addEventListener("DOMContentLoaded", function() {
     generateHeaderFooter();
-    break;
 });
 
 // This will help for DRY rules
