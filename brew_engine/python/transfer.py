@@ -9,3 +9,4 @@
 
 #Add a function to return possible parameters to avoid somebody saying their coffee is 3,000,000 degrees F
 
+#We need all parameters to be optional, this is for the extremists and the casual folk

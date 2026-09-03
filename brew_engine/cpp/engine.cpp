@@ -6,6 +6,9 @@
 
 // This function will take the grind size, water temperature, bean weight,
 // yield weight, whether a distribution tool was used, brew time, bean age, 
+// brew age and anything else to create a score
+// We also want a way to validate any amount of input because some people won't have bean age
+// or brew time, we may need different functions depending on the inputs
 
 // This function will take the grinder type and clicks from 0 to give a grind size
 
@@ -13,6 +16,5 @@
 // a brew quality
 
 // This funciton will check and validate the inputs to make sure they are within the expected ranges and types
-
 
 
